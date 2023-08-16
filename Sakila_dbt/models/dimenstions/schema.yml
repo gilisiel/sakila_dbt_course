@@ -1,0 +1,61 @@
+version: 2
+
+models:
+  - name: dim_date
+    description: "dim_date"
+    columns:
+      - name: date_key
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
+
+  - name: dim_customer        
+    description: "dim_customer"
+    columns:
+      - name: customer_id
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
+
+  - name: dim_staff        
+    description: "staff dimention model"
+    columns:
+      - name: staff_id
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null      
+
+  - name: dim_store        
+    description: "store dimention model"
+    columns:
+      - name: store_id
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null 
+
+  - name: dim_film       
+    description: "film dimention model"
+    columns:
+      - name: film_id
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null 
+
+sources:
+  - name: stg
+    database: sakila_wh
+    schema: stg
+    tables:
+      - name: customer
+      - name: address
+      - name: city
+      - name: country          
+          
+      
+             
+  

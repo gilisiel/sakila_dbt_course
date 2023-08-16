@@ -1,0 +1,615 @@
+[0m09:26:53.557785 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A1CD83FE90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A1C78B6910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A1C78B6A10>]}
+
+
+============================== 09:26:53.563039 | 3b2445d5-778e-4072-92a7-70a27f45f969 ==============================
+[0m09:26:53.563039 [info ] [MainThread]: Running with dbt=1.5.2
+[0m09:26:53.564036 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Lenovo1\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m09:26:53.567028 [debug] [MainThread]: Starter project path: C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\include\starter_project
+[0m09:28:01.845836 [info ] [MainThread]: Profile Sakila_dbt written to C:\Users\Lenovo1\.dbt\profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m09:28:01.845836 [info ] [MainThread]: 
+Your new dbt project "Sakila_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m09:28:01.845836 [debug] [MainThread]: Command `dbt init` succeeded at 09:28:01.845836 after 68.30 seconds
+[0m09:28:01.845836 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A1C78A3ED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A1CD8AF110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A1C7605E10>]}
+[0m09:28:01.845836 [debug] [MainThread]: Flushing usage events
+[0m09:45:43.952311 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AC7CD47E50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AC78C56B50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AC7CAA7890>]}
+
+
+============================== 09:45:43.956585 | d963952e-1281-450d-8e42-cd14ad5229d8 ==============================
+[0m09:45:43.956585 [info ] [MainThread]: Running with dbt=1.5.2
+[0m09:45:43.957547 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'debug': 'False', 'profiles_dir': 'C:\\Users\\Lenovo1\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m09:45:43.958582 [info ] [MainThread]: A project called Sakila_dbt already exists here.
+[0m09:45:43.959558 [debug] [MainThread]: Command `dbt init` succeeded at 09:45:43.959558 after 0.02 seconds
+[0m09:45:43.960540 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AC7D1DC290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AC7C9B7910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AC7CA88D50>]}
+[0m09:45:43.961537 [debug] [MainThread]: Flushing usage events
+[0m10:06:48.209946 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E68FE3FB10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E68FCAFC10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E68E00B010>]}
+
+
+============================== 10:06:48.209946 | 65e6030f-817f-48a8-8a3d-4208f16ab0ce ==============================
+[0m10:06:48.209946 [info ] [MainThread]: Running with dbt=1.5.2
+[0m10:06:48.209946 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': 'C:\\Users\\Lenovo1\\.dbt', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m10:06:48.209946 [info ] [MainThread]: dbt version: 1.5.2
+[0m10:06:48.209946 [info ] [MainThread]: python version: 3.11.4
+[0m10:06:48.209946 [info ] [MainThread]: python path: C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\python.exe
+[0m10:06:48.209946 [info ] [MainThread]: os info: Windows-10-10.0.22621-SP0
+[0m10:06:48.225568 [info ] [MainThread]: Using profiles.yml file at C:\Users\Lenovo1\.dbt\profiles.yml
+[0m10:06:48.225568 [info ] [MainThread]: Using dbt_project.yml file at C:\sakila_dbt_course\dbt_project.yml
+[0m10:06:48.225568 [info ] [MainThread]: Configuration:
+[0m10:06:48.225568 [info ] [MainThread]: target not specified in profile 'Sakila_dbt', using 'default'
+[0m10:06:48.225568 [error] [MainThread]: Encountered an error:
+'str' object has no attribute 'get'
+[0m10:06:48.272857 [error] [MainThread]: Traceback (most recent call last):
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\cli\requires.py", line 86, in wrapper
+    result, success = func(*args, **kwargs)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\cli\requires.py", line 71, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\cli\main.py", line 415, in debug
+    results = task.run()
+              ^^^^^^^^^^
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\task\debug.py", line 110, in run
+    self.test_configuration()
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\task\debug.py", line 294, in test_configuration
+    profile_status = self._load_profile()
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\task\debug.py", line 254, in _load_profile
+    profile: Profile = Profile.render(
+                       ^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\config\profile.py", line 436, in render
+    return cls.from_raw_profiles(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\config\profile.py", line 401, in from_raw_profiles
+    return cls.from_raw_profile_info(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\config\profile.py", line 343, in from_raw_profile_info
+    user_config = raw_profile.get("config")
+                  ^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+[0m10:06:48.273854 [debug] [MainThread]: Command `dbt debug` failed at 10:06:48.273854 after 0.08 seconds
+[0m10:06:48.274892 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E68FE3FC10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E68DAD97D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E68FD6F2D0>]}
+[0m10:06:48.274892 [debug] [MainThread]: Flushing usage events
+[0m10:07:12.730423 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000011136467610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000111364F0850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000011136479690>]}
+
+
+============================== 10:07:12.735437 | 2ee94d9f-9757-4fdf-bf7f-9d83e12640ae ==============================
+[0m10:07:12.735437 [info ] [MainThread]: Running with dbt=1.5.2
+[0m10:07:12.736406 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Lenovo1\\.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m10:07:12.736406 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\sakila_dbt_course\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m10:07:12.737404 [debug] [MainThread]: Command `dbt run` failed at 10:07:12.737404 after 0.02 seconds
+[0m10:07:12.737404 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000011136173010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000111301F9FD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000111301FAE10>]}
+[0m10:07:12.738401 [debug] [MainThread]: Flushing usage events
+[0m10:07:23.053791 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F9FF253D90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F9FEEB6B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F9FEBDE1D0>]}
+
+
+============================== 10:07:23.056934 | e6625baa-4ff7-4c8b-8c0e-00ff5aede450 ==============================
+[0m10:07:23.056934 [info ] [MainThread]: Running with dbt=1.5.2
+[0m10:07:23.057934 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Lenovo1\\.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m10:07:23.058916 [info ] [MainThread]: dbt version: 1.5.2
+[0m10:07:23.058916 [info ] [MainThread]: python version: 3.11.4
+[0m10:07:23.059887 [info ] [MainThread]: python path: C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\python.exe
+[0m10:07:23.060884 [info ] [MainThread]: os info: Windows-10-10.0.22621-SP0
+[0m10:07:23.060884 [info ] [MainThread]: Using profiles.yml file at C:\Users\Lenovo1\.dbt\profiles.yml
+[0m10:07:23.061917 [info ] [MainThread]: Using dbt_project.yml file at C:\sakila_dbt_course\dbt_project.yml
+[0m10:07:23.062879 [info ] [MainThread]: Configuration:
+[0m10:07:23.063906 [info ] [MainThread]: target not specified in profile 'Sakila_dbt', using 'default'
+[0m10:07:23.064873 [error] [MainThread]: Encountered an error:
+'str' object has no attribute 'get'
+[0m10:07:23.066868 [error] [MainThread]: Traceback (most recent call last):
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\cli\requires.py", line 86, in wrapper
+    result, success = func(*args, **kwargs)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\cli\requires.py", line 71, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\cli\main.py", line 415, in debug
+    results = task.run()
+              ^^^^^^^^^^
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\task\debug.py", line 110, in run
+    self.test_configuration()
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\task\debug.py", line 294, in test_configuration
+    profile_status = self._load_profile()
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\task\debug.py", line 254, in _load_profile
+    profile: Profile = Profile.render(
+                       ^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\config\profile.py", line 436, in render
+    return cls.from_raw_profiles(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\config\profile.py", line 401, in from_raw_profiles
+    return cls.from_raw_profile_info(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\config\profile.py", line 343, in from_raw_profile_info
+    user_config = raw_profile.get("config")
+                  ^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+[0m10:07:23.068864 [debug] [MainThread]: Command `dbt debug` failed at 10:07:23.068864 after 0.03 seconds
+[0m10:07:23.069860 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F9FF5ED090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F9FF26A050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F9FEE6BD10>]}
+[0m10:07:23.069860 [debug] [MainThread]: Flushing usage events
+[0m10:28:39.363971 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C8296E9550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C829986BD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C829E0F650>]}
+
+
+============================== 10:28:39.367990 | ec01bf3e-c126-47e3-9b20-455955310bca ==============================
+[0m10:28:39.367990 [info ] [MainThread]: Running with dbt=1.5.2
+[0m10:28:39.368977 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Lenovo1\\.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m10:28:39.369984 [info ] [MainThread]: A project called Sakila_dbt already exists here.
+[0m10:28:39.370952 [debug] [MainThread]: Command `dbt init` succeeded at 10:28:39.370952 after 0.02 seconds
+[0m10:28:39.370952 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C829E0F7D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C829E0F190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C8234B5E90>]}
+[0m10:28:39.371981 [debug] [MainThread]: Flushing usage events
+[0m13:43:50.589424 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CFDD596990>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CFDD5F1790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CFDD23EAD0>]}
+
+
+============================== 13:43:50.593261 | 1d4da4a0-00eb-4474-9afb-de9115b1469f ==============================
+[0m13:43:50.593261 [info ] [MainThread]: Running with dbt=1.5.2
+[0m13:43:50.594501 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\Lenovo1\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m13:43:50.596498 [info ] [MainThread]: A project called sakila_dbt already exists here.
+[0m13:43:50.596498 [debug] [MainThread]: Command `dbt init` succeeded at 13:43:50.596498 after 0.03 seconds
+[0m13:43:50.597536 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CFDDD19AD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CFD769C590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CFD73EF910>]}
+[0m13:43:50.597536 [debug] [MainThread]: Flushing usage events
+[0m15:00:48.194430 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D1B4FE5B50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D1B570B090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D1B4FCF750>]}
+
+
+============================== 15:00:48.198115 | 46c9b755-4447-4198-9788-960c3e449bee ==============================
+[0m15:00:48.198115 [info ] [MainThread]: Running with dbt=1.5.2
+[0m15:00:48.199207 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Lenovo1\\.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m15:00:48.201204 [info ] [MainThread]: A project called Sakila_dbt already exists here.
+[0m15:00:48.201204 [debug] [MainThread]: Command `dbt init` succeeded at 15:00:48.201204 after 0.02 seconds
+[0m15:00:48.201204 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D1B4FCDD90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D1B4DBA650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D1B505E750>]}
+[0m15:00:48.202749 [debug] [MainThread]: Flushing usage events
+[0m15:19:01.210186 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D1DF6AF710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D1DF6DC450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D1DFD67110>]}
+
+
+============================== 15:19:01.222134 | 63c2fd28-42c8-4602-bf73-c478b9e46693 ==============================
+[0m15:19:01.222134 [info ] [MainThread]: Running with dbt=1.5.2
+[0m15:19:01.222134 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Lenovo1\\.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m15:19:01.222134 [debug] [MainThread]: Starter project path: C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\include\starter_project
+[0m15:19:15.903249 [info ] [MainThread]: 
+Your new dbt project "Sakila_db" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m15:19:15.911807 [debug] [MainThread]: Command `dbt init` succeeded at 15:19:15.911807 after 14.71 seconds
+[0m15:19:15.911807 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D1DFB9FAD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D1D944EE50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D1D944FA10>]}
+[0m15:19:15.911807 [debug] [MainThread]: Flushing usage events
+[0m15:45:44.936313 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021A4CBC5390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021A4CBB3310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021A4CBC7DD0>]}
+
+
+============================== 15:45:44.940714 | 2bf79965-2dfc-43b2-b1e7-8e66de73e4f8 ==============================
+[0m15:45:44.940714 [info ] [MainThread]: Running with dbt=1.5.2
+[0m15:45:44.941683 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\Lenovo1\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m15:45:44.942708 [info ] [MainThread]: dbt version: 1.5.2
+[0m15:45:44.942708 [info ] [MainThread]: python version: 3.11.4
+[0m15:45:44.943674 [info ] [MainThread]: python path: C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\python.exe
+[0m15:45:44.943674 [info ] [MainThread]: os info: Windows-10-10.0.22621-SP0
+[0m15:45:44.944670 [info ] [MainThread]: Using profiles.yml file at C:\Users\Lenovo1\.dbt\profiles.yml
+[0m15:45:44.945702 [info ] [MainThread]: Using dbt_project.yml file at C:\sakila_dbt_course\dbt_project.yml
+[0m15:45:44.945702 [info ] [MainThread]: Configuration:
+[0m15:45:44.947267 [info ] [MainThread]: target not specified in profile 'Sakila_dbt', using 'default'
+[0m15:45:44.949263 [error] [MainThread]: Encountered an error:
+'str' object has no attribute 'get'
+[0m15:45:44.993020 [error] [MainThread]: Traceback (most recent call last):
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\cli\requires.py", line 86, in wrapper
+    result, success = func(*args, **kwargs)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\cli\requires.py", line 71, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\cli\main.py", line 415, in debug
+    results = task.run()
+              ^^^^^^^^^^
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\task\debug.py", line 110, in run
+    self.test_configuration()
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\task\debug.py", line 294, in test_configuration
+    profile_status = self._load_profile()
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\task\debug.py", line 254, in _load_profile
+    profile: Profile = Profile.render(
+                       ^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\config\profile.py", line 436, in render
+    return cls.from_raw_profiles(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\config\profile.py", line 401, in from_raw_profiles
+    return cls.from_raw_profile_info(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\config\profile.py", line 343, in from_raw_profile_info
+    user_config = raw_profile.get("config")
+                  ^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+[0m15:45:45.000474 [debug] [MainThread]: Command `dbt debug` failed at 15:45:44.999473 after 0.08 seconds
+[0m15:45:45.000474 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021A4CF89350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021A4D2D7F50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021A4CC2FE50>]}
+[0m15:45:45.001469 [debug] [MainThread]: Flushing usage events
+[0m15:46:20.099214 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000185DB4378D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000185DB4FCE90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000185DB437190>]}
+
+
+============================== 15:46:20.103216 | c25e7872-54d4-41a0-8e5e-7b9bf76f02d5 ==============================
+[0m15:46:20.103216 [info ] [MainThread]: Running with dbt=1.5.2
+[0m15:46:20.104211 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'debug': 'False', 'profiles_dir': 'C:\\Users\\Lenovo1\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m15:46:20.105186 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\sakila_dbt_course\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m15:46:20.106169 [debug] [MainThread]: Command `dbt run` failed at 15:46:20.106169 after 0.02 seconds
+[0m15:46:20.107167 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000185DB690090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000185DBBA1E10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000185DB845AD0>]}
+[0m15:46:20.108164 [debug] [MainThread]: Flushing usage events
+[0m15:50:07.558220 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CB17D5F090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CB17D33350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CB1812F4D0>]}
+
+
+============================== 15:50:07.562238 | d2554bb1-a1a1-4747-a211-e5bd0ae74341 ==============================
+[0m15:50:07.562238 [info ] [MainThread]: Running with dbt=1.5.2
+[0m15:50:07.563207 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Lenovo1\\.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m15:50:07.564204 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\sakila_dbt_course\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m15:50:07.565891 [debug] [MainThread]: Command `dbt run` failed at 15:50:07.565891 after 0.02 seconds
+[0m15:50:07.566928 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CB184ACB50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CB18139A50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CB11B1ACD0>]}
+[0m15:50:07.567919 [debug] [MainThread]: Flushing usage events
+[0m15:52:45.362261 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000220CD987B10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000220CD6B1C10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000220CD9F8BD0>]}
+
+
+============================== 15:52:45.366288 | 5fa8e3ca-d508-4d88-be7f-12f91cbb13bc ==============================
+[0m15:52:45.366288 [info ] [MainThread]: Running with dbt=1.5.2
+[0m15:52:45.367249 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Lenovo1\\.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m15:52:45.368248 [info ] [MainThread]: dbt version: 1.5.2
+[0m15:52:45.369244 [info ] [MainThread]: python version: 3.11.4
+[0m15:52:45.370245 [info ] [MainThread]: python path: C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\python.exe
+[0m15:52:45.372237 [info ] [MainThread]: os info: Windows-10-10.0.22621-SP0
+[0m15:52:45.373267 [info ] [MainThread]: Using profiles.yml file at C:\Users\Lenovo1\.dbt\profiles.yml
+[0m15:52:45.375228 [info ] [MainThread]: Using dbt_project.yml file at C:\sakila_dbt_course\dbt_project.yml
+[0m15:52:45.375719 [info ] [MainThread]: Configuration:
+[0m15:52:45.377823 [info ] [MainThread]: target not specified in profile 'Sakila_dbt', using 'default'
+[0m15:52:45.378788 [error] [MainThread]: Encountered an error:
+'str' object has no attribute 'get'
+[0m15:52:45.381780 [error] [MainThread]: Traceback (most recent call last):
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\cli\requires.py", line 86, in wrapper
+    result, success = func(*args, **kwargs)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\cli\requires.py", line 71, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\cli\main.py", line 415, in debug
+    results = task.run()
+              ^^^^^^^^^^
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\task\debug.py", line 110, in run
+    self.test_configuration()
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\task\debug.py", line 294, in test_configuration
+    profile_status = self._load_profile()
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\task\debug.py", line 254, in _load_profile
+    profile: Profile = Profile.render(
+                       ^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\config\profile.py", line 436, in render
+    return cls.from_raw_profiles(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\config\profile.py", line 401, in from_raw_profiles
+    return cls.from_raw_profile_info(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\config\profile.py", line 343, in from_raw_profile_info
+    user_config = raw_profile.get("config")
+                  ^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+[0m15:52:45.387765 [debug] [MainThread]: Command `dbt debug` failed at 15:52:45.387765 after 0.04 seconds
+[0m15:52:45.388763 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000220CDCD1A10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000220CDF74E10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000220C771ADD0>]}
+[0m15:52:45.389798 [debug] [MainThread]: Flushing usage events
+[0m15:54:04.769467 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027CE82DEF90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027CE8540690>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027CE8528AD0>]}
+
+
+============================== 15:54:04.769467 | 1dfa40c6-84a9-43a7-b8c8-2fe9acb485fb ==============================
+[0m15:54:04.769467 [info ] [MainThread]: Running with dbt=1.5.2
+[0m15:54:04.769467 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Lenovo1\\.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m15:54:04.769467 [info ] [MainThread]: dbt version: 1.5.2
+[0m15:54:04.769467 [info ] [MainThread]: python version: 3.11.4
+[0m15:54:04.769467 [info ] [MainThread]: python path: C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\python.exe
+[0m15:54:04.785096 [info ] [MainThread]: os info: Windows-10-10.0.22621-SP0
+[0m15:54:04.786284 [info ] [MainThread]: Using profiles.yml file at C:\Users\Lenovo1\.dbt\profiles.yml
+[0m15:54:04.787286 [info ] [MainThread]: Using dbt_project.yml file at C:\sakila_dbt_course\dbt_project.yml
+[0m15:54:04.788285 [info ] [MainThread]: Configuration:
+[0m15:54:04.791275 [info ] [MainThread]: target not specified in profile 'Sakila_dbt', using 'default'
+[0m15:54:04.792272 [error] [MainThread]: Encountered an error:
+'str' object has no attribute 'get'
+[0m15:54:04.796263 [error] [MainThread]: Traceback (most recent call last):
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\cli\requires.py", line 86, in wrapper
+    result, success = func(*args, **kwargs)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\cli\requires.py", line 71, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\cli\main.py", line 415, in debug
+    results = task.run()
+              ^^^^^^^^^^
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\task\debug.py", line 110, in run
+    self.test_configuration()
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\task\debug.py", line 294, in test_configuration
+    profile_status = self._load_profile()
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\task\debug.py", line 254, in _load_profile
+    profile: Profile = Profile.render(
+                       ^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\config\profile.py", line 436, in render
+    return cls.from_raw_profiles(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\config\profile.py", line 401, in from_raw_profiles
+    return cls.from_raw_profile_info(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\config\profile.py", line 343, in from_raw_profile_info
+    user_config = raw_profile.get("config")
+                  ^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+[0m15:54:04.801286 [debug] [MainThread]: Command `dbt debug` failed at 15:54:04.801286 after 0.04 seconds
+[0m15:54:04.802255 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027CE8267BD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027CE8988C50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027CE8988B10>]}
+[0m15:54:04.802255 [debug] [MainThread]: Flushing usage events
+[0m15:59:04.878448 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025637B342D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025637546110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025637547990>]}
+
+
+============================== 15:59:04.878448 | 5bdc4f9d-c3c1-46b1-9e9c-f9f096b3bb33 ==============================
+[0m15:59:04.878448 [info ] [MainThread]: Running with dbt=1.5.2
+[0m15:59:04.878448 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Lenovo1\\.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m15:59:04.878448 [info ] [MainThread]: dbt version: 1.5.2
+[0m15:59:04.878448 [info ] [MainThread]: python version: 3.11.4
+[0m15:59:04.878448 [info ] [MainThread]: python path: C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\python.exe
+[0m15:59:04.878448 [info ] [MainThread]: os info: Windows-10-10.0.22621-SP0
+[0m15:59:04.878448 [info ] [MainThread]: Using profiles.yml file at C:\Users\Lenovo1\.dbt\profiles.yml
+[0m15:59:04.878448 [info ] [MainThread]: Using dbt_project.yml file at C:\sakila_dbt_course\dbt_project.yml
+[0m15:59:04.878448 [info ] [MainThread]: Configuration:
+[0m15:59:04.878448 [info ] [MainThread]: target not specified in profile 'Sakila_dbt', using 'default'
+[0m15:59:04.894071 [error] [MainThread]: Encountered an error:
+'str' object has no attribute 'get'
+[0m15:59:04.897116 [error] [MainThread]: Traceback (most recent call last):
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\cli\requires.py", line 86, in wrapper
+    result, success = func(*args, **kwargs)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\cli\requires.py", line 71, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\cli\main.py", line 415, in debug
+    results = task.run()
+              ^^^^^^^^^^
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\task\debug.py", line 110, in run
+    self.test_configuration()
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\task\debug.py", line 294, in test_configuration
+    profile_status = self._load_profile()
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\task\debug.py", line 254, in _load_profile
+    profile: Profile = Profile.render(
+                       ^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\config\profile.py", line 436, in render
+    return cls.from_raw_profiles(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\config\profile.py", line 401, in from_raw_profiles
+    return cls.from_raw_profile_info(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\config\profile.py", line 343, in from_raw_profile_info
+    user_config = raw_profile.get("config")
+                  ^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+[0m15:59:04.903103 [debug] [MainThread]: Command `dbt debug` failed at 15:59:04.903103 after 0.04 seconds
+[0m15:59:04.904100 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025637C73850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025637C67950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025637827C50>]}
+[0m15:59:04.905098 [debug] [MainThread]: Flushing usage events
+[0m16:59:46.446635 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BC3C7AE110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BC3C4D8090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BC3C795490>]}
+
+
+============================== 16:59:46.452812 | dd4800c0-0596-4f66-a28c-93b02a0c60df ==============================
+[0m16:59:46.452812 [info ] [MainThread]: Running with dbt=1.5.2
+[0m16:59:46.453368 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': 'C:\\Users\\Lenovo1\\.dbt', 'log_path': 'logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m16:59:46.454371 [info ] [MainThread]: dbt version: 1.5.2
+[0m16:59:46.456364 [info ] [MainThread]: python version: 3.11.4
+[0m16:59:46.457362 [info ] [MainThread]: python path: C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\python.exe
+[0m16:59:46.459356 [info ] [MainThread]: os info: Windows-10-10.0.22621-SP0
+[0m16:59:46.461351 [info ] [MainThread]: Using profiles.yml file at C:\Users\Lenovo1\.dbt\profiles.yml
+[0m16:59:46.462852 [info ] [MainThread]: Using dbt_project.yml file at C:\sakila_dbt_course\dbt_project.yml
+[0m16:59:46.463882 [info ] [MainThread]: Configuration:
+[0m16:59:46.466347 [info ] [MainThread]: target not specified in profile 'Sakila_dbt', using 'default'
+[0m16:59:46.468770 [error] [MainThread]: Encountered an error:
+'str' object has no attribute 'get'
+[0m16:59:46.506641 [error] [MainThread]: Traceback (most recent call last):
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\cli\requires.py", line 86, in wrapper
+    result, success = func(*args, **kwargs)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\cli\requires.py", line 71, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\cli\main.py", line 415, in debug
+    results = task.run()
+              ^^^^^^^^^^
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\task\debug.py", line 110, in run
+    self.test_configuration()
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\task\debug.py", line 294, in test_configuration
+    profile_status = self._load_profile()
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\task\debug.py", line 254, in _load_profile
+    profile: Profile = Profile.render(
+                       ^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\config\profile.py", line 436, in render
+    return cls.from_raw_profiles(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\config\profile.py", line 401, in from_raw_profiles
+    return cls.from_raw_profile_info(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\config\profile.py", line 343, in from_raw_profile_info
+    user_config = raw_profile.get("config")
+                  ^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+[0m16:59:46.512626 [debug] [MainThread]: Command `dbt debug` failed at 16:59:46.512626 after 0.09 seconds
+[0m16:59:46.513920 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BC3CBF0890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BC3C787950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BC3C7970D0>]}
+[0m16:59:46.513920 [debug] [MainThread]: Flushing usage events
+[0m17:07:28.065484 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002125BD5FE90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002125BD5E490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002125C13F410>]}
+
+
+============================== 17:07:28.069431 | ff2357dd-4d2d-44f9-8499-278e8a0f172d ==============================
+[0m17:07:28.069431 [info ] [MainThread]: Running with dbt=1.5.2
+[0m17:07:28.070427 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\Lenovo1\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m17:07:28.071936 [info ] [MainThread]: dbt version: 1.5.2
+[0m17:07:28.071936 [info ] [MainThread]: python version: 3.11.4
+[0m17:07:28.072939 [info ] [MainThread]: python path: C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\python.exe
+[0m17:07:28.073973 [info ] [MainThread]: os info: Windows-10-10.0.22621-SP0
+[0m17:07:28.073973 [info ] [MainThread]: Using profiles.yml file at C:\Users\Lenovo1\.dbt\profiles.yml
+[0m17:07:28.075180 [info ] [MainThread]: Using dbt_project.yml file at C:\sakila_dbt_course\dbt_project.yml
+[0m17:07:28.075180 [info ] [MainThread]: Configuration:
+[0m17:07:28.077174 [info ] [MainThread]: target not specified in profile 'Sakila_dbt', using 'default'
+[0m17:07:28.078200 [error] [MainThread]: Encountered an error:
+'str' object has no attribute 'get'
+[0m17:07:28.081195 [error] [MainThread]: Traceback (most recent call last):
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\cli\requires.py", line 86, in wrapper
+    result, success = func(*args, **kwargs)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\cli\requires.py", line 71, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\cli\main.py", line 415, in debug
+    results = task.run()
+              ^^^^^^^^^^
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\task\debug.py", line 110, in run
+    self.test_configuration()
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\task\debug.py", line 294, in test_configuration
+    profile_status = self._load_profile()
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\task\debug.py", line 254, in _load_profile
+    profile: Profile = Profile.render(
+                       ^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\config\profile.py", line 436, in render
+    return cls.from_raw_profiles(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\config\profile.py", line 401, in from_raw_profiles
+    return cls.from_raw_profile_info(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\config\profile.py", line 343, in from_raw_profile_info
+    user_config = raw_profile.get("config")
+                  ^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+[0m17:07:28.084899 [debug] [MainThread]: Command `dbt debug` failed at 17:07:28.084899 after 0.03 seconds
+[0m17:07:28.085896 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002125BDE9750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002125C4A47D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002125BD36D10>]}
+[0m17:07:28.085896 [debug] [MainThread]: Flushing usage events
+[0m17:14:09.107110 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029DF14F42D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029DF13F95D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029DED219190>]}
+
+
+============================== 17:14:09.111134 | e25acd87-7a8e-40a8-8749-382a5f3fef27 ==============================
+[0m17:14:09.111134 [info ] [MainThread]: Running with dbt=1.5.2
+[0m17:14:09.112096 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\Lenovo1\\.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m17:14:09.112096 [info ] [MainThread]: dbt version: 1.5.2
+[0m17:14:09.113127 [info ] [MainThread]: python version: 3.11.4
+[0m17:14:09.113127 [info ] [MainThread]: python path: C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\python.exe
+[0m17:14:09.114235 [info ] [MainThread]: os info: Windows-10-10.0.22621-SP0
+[0m17:14:09.114235 [info ] [MainThread]: Using profiles.yml file at C:\Users\Lenovo1\.dbt\profiles.yml
+[0m17:14:09.115644 [info ] [MainThread]: Using dbt_project.yml file at C:\sakila_dbt_course\dbt_project.yml
+[0m17:14:09.115644 [info ] [MainThread]: Configuration:
+[0m17:14:09.117638 [info ] [MainThread]: target not specified in profile 'sakila_dbt', using 'default'
+[0m17:14:09.118636 [error] [MainThread]: Encountered an error:
+'str' object has no attribute 'get'
+[0m17:14:09.120640 [error] [MainThread]: Traceback (most recent call last):
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\cli\requires.py", line 86, in wrapper
+    result, success = func(*args, **kwargs)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\cli\requires.py", line 71, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\cli\main.py", line 415, in debug
+    results = task.run()
+              ^^^^^^^^^^
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\task\debug.py", line 110, in run
+    self.test_configuration()
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\task\debug.py", line 294, in test_configuration
+    profile_status = self._load_profile()
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\task\debug.py", line 254, in _load_profile
+    profile: Profile = Profile.render(
+                       ^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\config\profile.py", line 436, in render
+    return cls.from_raw_profiles(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\config\profile.py", line 401, in from_raw_profiles
+    return cls.from_raw_profile_info(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\config\profile.py", line 343, in from_raw_profile_info
+    user_config = raw_profile.get("config")
+                  ^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+[0m17:14:09.124159 [debug] [MainThread]: Command `dbt debug` failed at 17:14:09.124159 after 0.03 seconds
+[0m17:14:09.125609 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029DF0CA7710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029DF12CEA50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029DF163C050>]}
+[0m17:14:09.126573 [debug] [MainThread]: Flushing usage events
+[0m17:19:15.907288 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002168480B5D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021684F73E10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021684BCAE90>]}
+
+
+============================== 17:19:15.911276 | f4e2c7dc-5ca6-4173-9e60-42fd8adce6bc ==============================
+[0m17:19:15.911276 [info ] [MainThread]: Running with dbt=1.5.3
+[0m17:19:15.912238 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': 'C:\\Users\\Lenovo1\\.dbt', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m17:19:15.913235 [info ] [MainThread]: dbt version: 1.5.3
+[0m17:19:15.913235 [info ] [MainThread]: python version: 3.11.4
+[0m17:19:15.915653 [info ] [MainThread]: python path: C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\python.exe
+[0m17:19:15.917654 [info ] [MainThread]: os info: Windows-10-10.0.22621-SP0
+[0m17:19:15.918646 [info ] [MainThread]: Using profiles.yml file at C:\Users\Lenovo1\.dbt\profiles.yml
+[0m17:19:15.919644 [info ] [MainThread]: Using dbt_project.yml file at C:\sakila_dbt_course\dbt_project.yml
+[0m17:19:15.920641 [info ] [MainThread]: Configuration:
+[0m17:19:15.924175 [info ] [MainThread]: target not specified in profile 'sakila_dbt', using 'default'
+[0m17:19:15.925531 [error] [MainThread]: Encountered an error:
+'str' object has no attribute 'get'
+[0m17:19:15.929520 [error] [MainThread]: Traceback (most recent call last):
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\cli\requires.py", line 86, in wrapper
+    result, success = func(*args, **kwargs)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\cli\requires.py", line 71, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\cli\main.py", line 417, in debug
+    results = task.run()
+              ^^^^^^^^^^
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\task\debug.py", line 110, in run
+    self.test_configuration()
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\task\debug.py", line 294, in test_configuration
+    profile_status = self._load_profile()
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\task\debug.py", line 254, in _load_profile
+    profile: Profile = Profile.render(
+                       ^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\config\profile.py", line 436, in render
+    return cls.from_raw_profiles(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\config\profile.py", line 401, in from_raw_profiles
+    return cls.from_raw_profile_info(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo1\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\config\profile.py", line 343, in from_raw_profile_info
+    user_config = raw_profile.get("config")
+                  ^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+[0m17:19:15.939522 [debug] [MainThread]: Command `dbt debug` failed at 17:19:15.939522 after 0.05 seconds
+[0m17:19:15.940513 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002168484D950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021684B33D10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021684F73610>]}
+[0m17:19:15.941508 [debug] [MainThread]: Flushing usage events
